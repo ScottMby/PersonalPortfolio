@@ -14,9 +14,9 @@ function NavBar() {
                         <div className="HomeContainer">
                             <img src={HomeIcon} />
                         </div>
-                        <text>About</text>
-                        <text>Projects</text>
-                        <text type="button" className="ContactMeText">Contact me</text>
+                        <a>About</a>
+                        <a>Projects</a>
+                        <a type="button" className="ContactMeText">Contact me</a>
                     </div>
                 </div>
                 <div className="HireMeContainer">

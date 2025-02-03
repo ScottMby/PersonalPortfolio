@@ -32,13 +32,16 @@ body {
     font-size: 16px;
 }
 
-    .NavButtons text {
+    .NavButtons a {
         width: 100%;
-        padding: 8px 0px 8px 0px;
         border-radius: 40px 40px 40px 40px;
+        height: 100%;
+        padding: 8px 0px 8px 0px;
+        color: #FFFFFF;
+        font-weight: 300;
     }
 
-        .NavButtons text:hover {
+        .NavButtons a:hover {
             background-color: #292929;
         }
 
@@ -61,7 +64,7 @@ body {
 }
 
 .HireMeContainerButton {
-    background: linear-gradient(to right, #7A87FB, #FFD49C ) padding-box, linear-gradient(to right, #FFD49C, #7A87FB) border-box;
+    background: linear-gradient(to right, #101111, #101111 ) padding-box, linear-gradient(to right, #FFD49C, #7A87FB) border-box;
     border-radius: 40px;
     border-width: 1px;
     padding: 14px 20px 14px 20px;
@@ -71,5 +74,14 @@ body {
         font-family: Poppins;
         font-size: 16px;
         font-weight: 500;
-        color: #000000;
+        color: #FFFFFF;
+    }
+
+    .HireMeContainerButton:hover {
+        border-color: #FFD49C;
+    }
+
+    .HireMeContainerButton:active {
+        outline: none;
+        border-color: #FFD49C;
     }
