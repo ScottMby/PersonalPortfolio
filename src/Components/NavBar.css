@@ -1,0 +1,75 @@
+body {
+}
+
+.NavContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.LogoContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    font-weight: normal;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+}
+
+.NavButtonsContainer {
+    width: 100%;
+}
+
+.NavButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 6px 6px 6px;
+    background: linear-gradient(#1C1C1C, #1C1C1C) padding-box, linear-gradient(to right, #7A87FB, #FFD49C) border-box;
+    border: 1.5px solid transparent;
+    border-radius: 290px;
+    font-size: 16px;
+}
+
+    .NavButtons text {
+        width: 100%;
+        padding: 8px 0px 8px 0px;
+        border-radius: 40px 40px 40px 40px;
+    }
+
+        .NavButtons text:hover {
+            background-color: #292929;
+        }
+
+.HomeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px 8px 16px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+    .HomeContainer:hover {
+        background-color: #292929;
+    }
+
+.HireMeContainer {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.HireMeContainerButton {
+    background: linear-gradient(to right, #7A87FB, #FFD49C ) padding-box, linear-gradient(to right, #FFD49C, #7A87FB) border-box;
+    border-radius: 40px;
+    border-width: 1px;
+    padding: 14px 20px 14px 20px;
+}
+
+    .HireMeContainerButton text {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        color: #000000;
+    }
