@@ -5,6 +5,7 @@ import Hero from './Components/Hero'
 import ParticlesComponent from './components/Particles';
 import Scroller from './Components/Scroller'
 import ExperienceContent from './Components/ExperienceContent';
+import ProjectsContent from './Components/ProjectsContent';
 
 function App() {
     const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
                 <Hero />
                 <Scroller />
                 <ExperienceContent />
+                <ProjectsContent />
             </div>
             <ParticlesComponent className="Particles"/>
         </>

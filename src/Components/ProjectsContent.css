@@ -1,0 +1,79 @@
+body {
+}
+
+.ProjectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+    gap: 50px;
+}
+
+.ProjectsTitleContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    gap: 29px;
+}
+
+.ProjectLeft {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 50px 95px 50px 95px;
+    height: auto;
+    text-align: left;
+    gap: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #ffffff25;
+}
+
+.ProjectRight {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 50px 95px 50px 95px;
+    height: auto;
+    text-align: right;
+    gap: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #ffffff25;
+}
+
+.ProjectInner {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    gap: 20px;
+}
+
+.ProjectLeft img {
+    width: 54px;
+    height: 54px;
+}
+
+.ProjectRight img {
+    width: 54px;
+    height: 54px;
+    align-self: flex-end;
+}
+
+.ProjectInner p {
+    font-size: 19px;
+    margin: 0;
+}
+
+    .ProjectTitle {
+        background-color: #ffffff;
+        background-image: linear-gradient(to right, #7A87FB, #FFD49C);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        font-size: 36px;
+        font-weight: bold;
+    }
