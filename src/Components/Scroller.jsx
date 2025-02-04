@@ -22,6 +22,14 @@ export default function Scroller () {
                     <p>Azure DevOps</p>
                     <img src={ScrollerIcon} />
                     <p>Docker</p>
+                    <img src={ScrollerIcon} />
+                    <p>Git</p>
+                    <img src={ScrollerIcon} />
+                    <p>HTML</p>
+                    <img src={ScrollerIcon} />
+                    <p>CSS</p>
+                    <img src={ScrollerIcon} />
+                    <p>Entity Framework</p>
                 </Marquee>
             </div>
         </>    

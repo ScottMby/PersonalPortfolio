@@ -1,0 +1,79 @@
+body {
+}
+
+.ExperienceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+    gap: 50px;
+}
+
+.ExperienceTitleContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    gap: 29px;
+}
+
+.InnerExperienceContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.JobContainer {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 46px;
+    padding: 28px 0px 28px 0px;
+}
+
+    .JobContainer img {
+        width: 56px;
+        height: 56px;
+    }
+
+.NumberContainer {
+    padding: 0px 19px 0px 19px;
+}
+.NumberContainer img {
+        background-color: #101111;
+} 
+
+.JobTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+    .JobTextContainer p {
+        font-size: 22px;
+        text-align: left;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .JobTextContainer li {
+        font-size: 19px;
+        text-align: left;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+.JobContent {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    justify-content: start;
+    background-color: #101111;
+}
+
+.LineImage {
+    position: absolute;
+    top: 20%;
+    left: 4.4%;
+    z-index: -1; /* Ensure the line is behind the job containers */
+}
