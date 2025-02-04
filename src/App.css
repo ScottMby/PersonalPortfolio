@@ -57,3 +57,8 @@ html {
     flex-direction: column;
     gap: 50px;
 }
+
+#tsparticles {
+    z-index: -2;
+    position: absolute;
+}
