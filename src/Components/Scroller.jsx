@@ -30,6 +30,14 @@ export default function Scroller () {
                     <p>CSS</p>
                     <img src={ScrollerIcon} />
                     <p>Entity Framework</p>
+                    <img src={ScrollerIcon} />
+                    <p>Figma</p>
+                    <img src={ScrollerIcon} />
+                    <p>PostgreSQL</p>
+                    <img src={ScrollerIcon} />
+                    <p>JavaScript</p>
+                    <img src={ScrollerIcon} />
+                    <p>Unity</p>
                 </Marquee>
             </div>
         </>    
