@@ -40,7 +40,7 @@ body {
     padding: 0px 19px 0px 19px;
 }
 .NumberContainer img {
-        background-color: #101111;
+        
 } 
 
 .JobTextContainer {
@@ -68,7 +68,7 @@ body {
     flex-direction: column;
     gap: 33px;
     justify-content: start;
-    background-color: #101111;
+
 }
 
 .LineImage {

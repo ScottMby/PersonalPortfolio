@@ -10,7 +10,7 @@ function Hero() {
                 <div className="InnerHeroContainer">
                     <div className="ContentContainer">
                         <p className="Title">.NET Software Engineer 🚀</p>
-                        <p className="Description">I launch <strong>functional</strong> and <strong>user-focused</strong> websites that deliver <strong><u>real results.</u></strong></p>
+                        <p className="Description">I build <strong>user-focused</strong> websites to create <strong><u> real-world solutions</u></strong>.</p>
                         <button className="HireMeButton"><text>Hire me</text></button>
                     </div>
                 </div>
