@@ -1,4 +1,4 @@
-import Logo from '../assets/Logo.svg'
+﻿import Logo from '../assets/Logo.svg'
 import HomeIcon from '../assets/Home Icon.svg'
 import './NavBar.css'
 function NavBar() {
@@ -16,7 +16,7 @@ function NavBar() {
                         </div>
                         <a>About</a>
                         <a>Projects</a>
-                        <a type="button" className="ContactMeText">Contact me</a>
+                        <a>Contact me</a>
                     </div>
                 </div>
                 <div className="HireMeContainer">

@@ -1,0 +1,25 @@
+body {
+}
+
+.MarqueeContainer
+{
+    border: 1px solid #ffffff25; /* Example border style */
+    border-left: 0px;
+    border-right: 0px;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+.Marquee {
+    
+}
+
+    .Marquee p {
+        font-size: 20px;
+        vertical-align: middle;
+        line-height: 0;
+        margin-left: 100px;
+    }
+    .Marquee img {
+        margin-left: 100px;
+    }

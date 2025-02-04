@@ -11,7 +11,7 @@ const ParticlesComponent = (props) => {
                 color: {
                     value: "#101111"
                 },
-                image: "url('http://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1237px-NASA_logo.svg.png')",
+                image: "",
                 position: "50% 50%",
                 repeat: "no-repeat",
                 size: "20%",
