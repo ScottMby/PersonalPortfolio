@@ -5,8 +5,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 100px 50px 100px;
     gap: 50px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.25);
 }
 
 .ProjectsTitleContainer {
@@ -16,11 +17,15 @@ body {
     gap: 29px;
 }
 
+.ProjectsTitleContainer p {
+    margin: 0;
+}
+
 .ProjectLeft {
     display: flex;
     flex-direction: row;
     width: auto;
-    padding: 50px 95px 50px 95px;
+    padding: 20px 95px 20px 95px;
     height: auto;
     text-align: left;
     gap: 10px;
@@ -33,13 +38,25 @@ body {
     display: flex;
     flex-direction: row;
     width: auto;
-    padding: 50px 95px 50px 95px;
+    padding: 20px 95px 20px 95px;
     height: auto;
-    text-align: right;
     gap: 10px;
     border: 1px solid;
     border-radius: 20px;
     border-color: #ffffff25;
+    justify-content: space-between;
+}
+
+.ProjectRight span {
+    align-self: flex-end;
+}
+
+.ProjectLeft .ProjectTitle {
+    background-image: linear-gradient(to right, #7A87FB, #FFD49C);
+}
+
+.ProjectRight .ProjectTitle {
+    background-image: linear-gradient(to left, #7A87FB, #FFD49C);
 }
 
 .ProjectInner {
@@ -68,12 +85,12 @@ body {
 
     .ProjectTitle {
         background-color: #ffffff;
-        background-image: linear-gradient(to right, #7A87FB, #FFD49C);
         background-size: 100%;
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
-        font-size: 36px;
+        font-size: 32px;
         font-weight: bold;
+        width: fit-content;
     }

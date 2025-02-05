@@ -1,0 +1,68 @@
+body {
+}
+
+.CTAContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px 0px 195px;
+}
+
+.CTA {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-between;
+}
+
+.CTAContent {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Star {
+}
+
+.StarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: start;
+    height: 60px;
+}
+
+.CTATitle {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    gap: 29px;
+}
+
+.CTATitle p {
+    margin: 0;
+}
+
+.HireMeButton {
+    background: linear-gradient(to right, #101111, #101111 ) padding-box, linear-gradient(to right, #FFD49C, #7A87FB) border-box;
+    border-radius: 40px;
+    border-width: 1px;
+    padding: 14px 20px 14px 20px;
+    max-height: 55px;
+    width: fit-content;
+}
+
+    .HireMeButton text {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        color: #FFFFFF;
+    }
+
+    .HireMeButton:hover {
+        border-color: #FFD49C;
+    }
+
+    .HireMeButton:active {
+        outline: none;
+        border-color: #FFD49C;
+    }

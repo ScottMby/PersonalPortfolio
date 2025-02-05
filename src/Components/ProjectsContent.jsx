@@ -4,13 +4,13 @@ import ProjectCircle1 from '../assets/ProjectCircle1.png'
 import ProjectCircle2 from '../assets/ProjectCircle2.png'
 import ProjectCircle3 from '../assets/ProjectCircle3.png'
 
-export default function ProjectsContent() {
+export default function ProjectsContent(props) {
 
     return (
         <>
-            <div className="ProjectsContainer">
+            <div className="ProjectsContainer" ref={props.innerRef}>
                 <div className="ProjectsTitleContainer">
-                    <p>My Previous Experience</p>
+                    <p>Some Featured Projects</p>
                     <img src={ExperienceStar} />
                 </div>
                 <div className="ProjectLeft">

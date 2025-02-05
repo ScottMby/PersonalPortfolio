@@ -6,12 +6,12 @@ import ElipseD from '../assets/Elipse-D.svg'
 import Line from '../assets/line.svg'
 import './ExperienceContent.css'
 
-export default function ExperienceContent()
+export default function ExperienceContent(props)
 {
 
     return (
         <>
-            <div className="ExperienceContainer">
+            <div ref={props.innerRef} className="ExperienceContainer">
                 <div className="ExperienceTitleContainer">
                     <p>My Previous Experience</p>
                     <img src={ExperienceStar} />

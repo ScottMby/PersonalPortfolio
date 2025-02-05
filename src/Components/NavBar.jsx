@@ -1,7 +1,7 @@
 ﻿import Logo from '../assets/Logo.svg'
 import HomeIcon from '../assets/Home Icon.svg'
 import './NavBar.css'
-function NavBar() {
+function NavBar({ experience, projects, contact }) {
     return (
         <>
             <div className="NavContainer">
@@ -14,13 +14,13 @@ function NavBar() {
                         <div className="HomeContainer">
                             <img src={HomeIcon} />
                         </div>
-                        <a>About</a>
-                        <a>Projects</a>
-                        <a>Contact me</a>
+                        <a onClick={experience}>Experience</a>
+                        <a onClick={projects}>Projects</a>
+                        <a onClick={contact}>Contact me</a>
                     </div>
                 </div>
                 <div className="HireMeContainer">
-                    <button className="HireMeContainerButton"><text>Hire me</text></button>
+                    <button className="HireMeContainerButton" onClick={() => window.location.href = 'mailto:smumby2003@gmail.com'}><text>Hire me</text></button>
                 </div>
             </div>
         </>

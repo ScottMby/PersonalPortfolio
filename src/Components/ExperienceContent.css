@@ -5,8 +5,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 100px 50px 100px;
     gap: 50px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.25);
 }
 
 .ExperienceTitleContainer {
@@ -16,11 +17,16 @@ body {
     gap: 29px;
 }
 
+.ExperienceTitleContainer p {
+    margin: 0;
+}
+
 .InnerExperienceContainer {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 25px;
 }
 
 .JobContainer {
@@ -28,7 +34,7 @@ body {
     flex-direction: row;
     width: auto;
     gap: 46px;
-    padding: 28px 0px 28px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
     .JobContainer img {
