@@ -13,7 +13,7 @@ export default function CTAComponent(props) {
                             <p>Have a project idea?</p>
                             <img src={ ExperienceStar } />
                         </div>
-                        <button className="HireMeButton" onClick={() => window.location.href = 'mailto:smumby2003@gmail.com'}>Lets Talk!</button>
+                        <button className="HireMeButton" onClick={() => window.location.href = 'mailto:smumby2003@gmail.com'}><text>Lets Talk!</text></button>
                     </div>
                     <img src={CTAImg} />
                 </div>

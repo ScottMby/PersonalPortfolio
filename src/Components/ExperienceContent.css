@@ -10,6 +10,24 @@ body {
     border-bottom: 1px dotted rgba(255, 255, 255, 0.25);
 }
 
+@media (max-width: 900px) {
+    .ExperienceContainer {
+        padding: 0px 16px 50px 16px;
+    }
+    .ExperienceTitleContainer p {
+        font-size: 26px;
+    }
+    .ExperienceTitleContainer img {
+        display: none !important;
+    }
+    .NumberContainer {
+        display: none !important;
+    }
+    .LineImage {
+        display: none !important;
+    }
+}
+
 .ExperienceTitleContainer {
     display: flex;
     flex-direction: row;

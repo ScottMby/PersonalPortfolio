@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
+    align-items: center;
 }
 
 .LogoContainer {
@@ -20,6 +21,9 @@ body {
 @media (max-width: 900px) {
     .NavButtonsContainer {
         display: none;
+    }
+    .LogoContainer p {
+        display: none !important;
     }
 }
 

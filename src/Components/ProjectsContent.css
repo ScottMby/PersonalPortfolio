@@ -21,67 +21,87 @@ body {
     margin: 0;
 }
 
-.ProjectLeft {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    padding: 20px 95px 20px 95px;
-    height: auto;
-    text-align: left;
-    gap: 10px;
-    border: 1px solid;
-    border-radius: 20px;
-    border-color: #ffffff25;
+@media (max-width: 900px) {
+    .ProjectsContainer {
+        padding: 0px 16px 50px 16px !important;
+    }
+    .ProjectsTitleContainer p {
+        font-size: 26px;
+    }
+    .ProjectsTitleContainer img {
+        display: none !important;
+    }
+    .ProjectLeft {
+        border: 0 !important;
+        padding: 0px 0px 0px 0px !important;
+    }
+    .ProjectRight {
+        border: 0 !important;
+        padding: 0px 0px 0px 0px !important;
+    }
 }
 
-.ProjectRight {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    padding: 20px 95px 20px 95px;
-    height: auto;
-    gap: 10px;
-    border: 1px solid;
-    border-radius: 20px;
-    border-color: #ffffff25;
-    justify-content: space-between;
-}
+    .ProjectLeft {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        padding: 20px 95px 20px 95px;
+        height: auto;
+        text-align: left;
+        gap: 10px;
+        border: 1px solid;
+        border-radius: 20px;
+        border-color: #ffffff25;
+    }
 
-.ProjectRight span {
-    align-self: flex-end;
-}
+    .ProjectRight {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        padding: 20px 95px 20px 95px;
+        height: auto;
+        gap: 10px;
+        border: 1px solid;
+        border-radius: 20px;
+        border-color: #ffffff25;
+        justify-content: space-between;
+    }
 
-.ProjectLeft .ProjectTitle {
-    background-image: linear-gradient(to right, #7A87FB, #FFD49C);
-}
+        .ProjectRight span {
+            align-self: flex-end;
+        }
 
-.ProjectRight .ProjectTitle {
-    background-image: linear-gradient(to left, #7A87FB, #FFD49C);
-}
+    .ProjectLeft .ProjectTitle {
+        background-image: linear-gradient(to right, #7A87FB, #FFD49C);
+    }
 
-.ProjectInner {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: auto;
-    gap: 20px;
-}
+    .ProjectRight .ProjectTitle {
+        background-image: linear-gradient(to left, #7A87FB, #FFD49C);
+    }
 
-.ProjectLeft img {
-    width: 54px;
-    height: 54px;
-}
+    .ProjectInner {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        gap: 20px;
+    }
 
-.ProjectRight img {
-    width: 54px;
-    height: 54px;
-    align-self: flex-end;
-}
+    .ProjectLeft img {
+        width: 54px;
+        height: 54px;
+    }
 
-.ProjectInner p {
-    font-size: 19px;
-    margin: 0;
-}
+    .ProjectRight img {
+        width: 54px;
+        height: 54px;
+        align-self: flex-end;
+    }
+
+    .ProjectInner p {
+        font-size: 19px;
+        margin: 0;
+    }
 
     .ProjectTitle {
         background-color: #ffffff;

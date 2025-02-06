@@ -1,10 +1,23 @@
 body {
 }
 
+@media (max-width: 900px){
+    .CTAContainer {
+        padding: 0 !important;
+    }
+    .CTA {
+        justify-content: center !important;
+    }
+    .CTA img {
+        display: none !important;
+    }
+}
+
 .CTAContainer {
     display: flex;
     flex-direction: column;
     padding: 0px 100px 0px 195px;
+    width: auto;
 }
 
 .CTA {

@@ -43,6 +43,15 @@ html {
     }
 }
 
+@media (max-width: 900px) {
+    .wrapper {
+        gap: 20px !important;
+    }
+    #root {
+        padding: 0 !important;
+    }
+}
+
 .card {
     padding: 2em;
 }
@@ -52,7 +61,7 @@ html {
 }
 
 .wrapper {
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
     gap: 50px;

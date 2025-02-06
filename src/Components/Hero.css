@@ -24,55 +24,76 @@ body {
     height: 285px;
     padding: 80px 175px 271px 175px;
     gap: 11px;
-}
-
-.Title{
-    font-size: 32px;
-    font-weight: 700;
-    width: 100%;
-    height: auto;
-    text-overflow: ellipsis;
-    box-sizing: border-box;
-    margin: 0;
-}
-
-.Description {
-    font-size: 18px;
-    width: 100%;
-    text-overflow: ellipsis;
-    box-sizing: border-box;
-    margin: 0;
-}
-.HireMeButton {
-    background: linear-gradient(to right, #101111, #101111 ) padding-box, linear-gradient(to right, #FFD49C, #7A87FB) border-box;
-    border-radius: 40px;
-    border-width: 1px;
-    padding: 14px 20px 14px 20px;
-    width: 105px;
-    margin: 0 auto; /* Center horizontally */
-}
-
-.HireMeButton text {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 500;
-    color: #FFFFFF;
-}
-
-.HireMeButton:hover {
-    border-color: #FFD49C;
-}
-
-.HireMeButton:active {
-    outline: none;
-}
-
-.ContentContainer {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center; /* Center elements vertically */
-    gap: 30px; /* Space elements by 11px */
-    height: 100%;
-    padding: 0px 15px 0px 15px;
 }
+
+@media (max-width: 900px) {
+    .InnerHeroContainer {                                                                                  
+        padding: 80px 0px 80px 0px !important;
+    }
+
+    .ContentContainer {
+        padding: 10px 0px 10px 0px !important;
+        gap: 10px !important;
+    }
+
+    .HeroGrid {
+        display: none !important;
+    }
+
+    .HeroContainer {
+        min-height: 400px !important;
+    }
+}
+
+    .Title {
+        font-size: 32px;
+        font-weight: 700;
+        width: 100%;
+        height: auto;
+        text-overflow: ellipsis;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .Description {
+        font-size: 18px;
+        width: 100%;
+        text-overflow: ellipsis;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .HireMeButton {
+        background: linear-gradient(to right, #101111, #101111 ) padding-box, linear-gradient(to right, #FFD49C, #7A87FB) border-box;
+        border-radius: 40px;
+        border-width: 1px;
+        padding: 14px 20px 14px 20px;
+        width: 105px;
+        margin: 0 auto; /* Center horizontally */
+    }
+
+        .HireMeButton text {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            color: #FFFFFF;
+        }
+
+        .HireMeButton:hover {
+            border-color: #FFD49C;
+        }
+
+        .HireMeButton:active {
+            outline: none;
+        }
+
+    .ContentContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; /* Center elements vertically */
+        gap: 30px;
+        height: auto;
+        padding: 0px 15px 0px 15px;
+    }

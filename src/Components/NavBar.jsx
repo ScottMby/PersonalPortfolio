@@ -7,7 +7,7 @@ function NavBar({ experience, projects, contact }) {
             <div className="NavContainer">
                 <div className="LogoContainer">
                     <img src={Logo} />
-                    <text>Scott Mumby</text>
+                    <p>Scott Mumby</p>
                 </div>
                 <div className="NavButtonsContainer">
                     <div className="NavButtons">
