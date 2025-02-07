@@ -1,18 +1,16 @@
-﻿import Logo from '../assets/Logo.svg'
-import HomeIcon from '../assets/Home Icon.svg'
-import './NavBar.css'
+﻿import './NavBar.css'
 function NavBar({ experience, projects, contact }) {
     return (
         <>
             <div className="NavContainer">
                 <div className="LogoContainer">
-                    <img src={Logo} />
+                    <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@master/Logo.svg" />
                     <p>Scott Mumby</p>
                 </div>
                 <div className="NavButtonsContainer">
                     <div className="NavButtons">
                         <div className="HomeContainer">
-                            <img src={HomeIcon} />
+                            <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@master/Home Icon.svg" />
                         </div>
                         <a onClick={experience}>Experience</a>
                         <a onClick={projects}>Projects</a>
