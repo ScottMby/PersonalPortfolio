@@ -11,7 +11,7 @@ function Hero() {
                     <div className="ContentContainer">
                         <p className="Title">.NET Software Engineer 🚀</p>
                         <p className="Description">I build <strong>user-focused</strong> websites to create <strong><u> real-world solutions</u></strong>.</p>
-                        <button className="HireMeButton" onClick={() => window.location.href = 'mailto:smumby2003@gmail.com'}><text>Hire me</text></button>
+                        <button className="HireMeButton" onClick={() => window.location.href = 'mailto:smumby2003@gmail.com'}><p>Hire me</p></button>
                     </div>
                 </div>
             </div>

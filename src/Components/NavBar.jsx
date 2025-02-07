@@ -20,7 +20,7 @@ function NavBar({ experience, projects, contact }) {
                     </div>
                 </div>
                 <div className="HireMeContainer">
-                    <button className="HireMeContainerButton" onClick={() => window.location.href = 'mailto:smumby2003@gmail.com'}><text>Hire me</text></button>
+                    <button className="HireMeContainerButton" onClick={() => window.location.href = 'mailto:smumby2003@gmail.com'}><p>Hire me</p></button>
                 </div>
             </div>
         </>

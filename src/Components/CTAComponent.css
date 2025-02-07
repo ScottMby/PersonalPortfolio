@@ -64,11 +64,12 @@ body {
     width: fit-content;
 }
 
-    .HireMeButton text {
+    .HireMeButton p {
         font-family: Poppins;
         font-size: 16px;
         font-weight: 500;
         color: #FFFFFF;
+        margin: 0;
     }
 
     .HireMeButton:hover {

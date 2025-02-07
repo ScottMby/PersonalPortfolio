@@ -93,11 +93,12 @@ body {
     max-height: 55px;
 }
 
-    .HireMeContainerButton text {
+    .HireMeContainerButton p {
         font-family: Poppins;
         font-size: 16px;
         font-weight: 500;
         color: #FFFFFF;
+        margin: 0;
     }
 
     .HireMeContainerButton:hover {

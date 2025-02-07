@@ -8,7 +8,7 @@ export default function ProjectsContent(props) {
 
     return (
         <>
-            <div className="ProjectsContainer" ref={props.innerRef}>
+            <div id="projectscontainer" className="ProjectsContainer">
                 <div className="ProjectsTitleContainer">
                     <p>Some Featured Projects</p>
                     <img src={ExperienceStar} />
