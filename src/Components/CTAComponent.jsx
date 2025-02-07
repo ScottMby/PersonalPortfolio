@@ -1,8 +1,6 @@
 import './CTAComponent.css'
-import ExperienceStar from '../assets/ExperienceStar.svg'
-import CTAImg from '../assets/CTAImg.svg'
 
-export default function CTAComponent(props) {
+export default function CTAComponent() {
 
     return (
         <>
@@ -11,11 +9,11 @@ export default function CTAComponent(props) {
                     <div className="CTAContent">
                         <div className="CTATitle">
                             <p>Have a project idea?</p>
-                            <img src={ ExperienceStar } />
+                            <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@master/ExperienceStar.svg" />
                         </div>
                         <button className="HireMeButton" onClick={() => window.location.href = 'mailto:smumby2003@gmail.com'}><p>Lets Talk!</p></button>
                     </div>
-                    <img src={CTAImg} />
+                    <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@master/CTAImg.svg" />
                 </div>
             </div>
         </>

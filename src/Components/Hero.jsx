@@ -1,12 +1,10 @@
 ﻿import './Hero.css'
-import HeroGrid from '../assets/BackgroundGrid.svg'
-
 function Hero() {
 
     return (
         <>
             <div className="HeroContainer">
-                <img src={HeroGrid} className="HeroGrid" />
+                <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@master/BackgroundGrid.svg" className="HeroGrid" />
                 <div className="InnerHeroContainer">
                     <div className="ContentContainer">
                         <p className="Title">.NET Software Engineer 🚀</p>
