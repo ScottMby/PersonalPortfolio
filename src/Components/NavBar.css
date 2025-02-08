@@ -18,6 +18,11 @@ body {
     gap: 12px;
 }
 
+.LogoContainer img {
+    width: 44px;
+    height: 44px;
+}
+
 @media (max-width: 900px) {
     .NavButtonsContainer {
         display: none;

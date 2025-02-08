@@ -7,15 +7,15 @@ export default function ExperienceContent()
             <div id="experiencecontainer" className="ExperienceContainer">
                 <div className="ExperienceTitleContainer">
                     <p>My Previous Experience</p>
-                    <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@master/ExperienceStar.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@latest/ExperienceStar.svg" />
                 </div>
                 <div className="InnerExperienceContainer">
                     <div className="JobContainer">
                         <div className="NumberContainer">
-                            <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@master/Circle 1.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@latest/Circle 1.svg" />
                         </div>
                         <div className="JobContent">
-                            <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@master/Elipse-R.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@latest/Elipse-R.svg" />
                             <div className="JobTextContainer">
                                 <p>Web Developer Intern - Tick9 Ltd</p>
                                 <ul>
@@ -24,13 +24,13 @@ export default function ExperienceContent()
                             </div>
                         </div>
                     </div>
-                    <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@master/Line.svg" className="LineImage" />
+                    <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@latest/Line.svg" className="LineImage" />
                     <div className="JobContainer">
                         <div className="NumberContainer">
-                            <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@master/Circle 2.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@latest/Circle 2.svg" />
                         </div>
                         <div className="JobContent">
-                            <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@master/Elipse-D.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@latest/Elipse-D.svg" />
                             <div className="JobTextContainer">
                                 <p>CDP Software Engineer - University of Hull</p>
                                 <ul>

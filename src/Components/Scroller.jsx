@@ -1,7 +1,7 @@
 import './Scroller.css'
-import ScrollerIcon from '../assets/ScrollerIcon.svg'
 import Marquee from 'react-fast-marquee'
 
+let ScrollerIcon = "https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@latest/ScrollerIcon.svg"
 export default function Scroller () {
 
     return (

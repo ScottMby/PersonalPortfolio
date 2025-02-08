@@ -4,13 +4,13 @@ function NavBar({ experience, projects, contact }) {
         <>
             <div className="NavContainer">
                 <div className="LogoContainer">
-                    <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@master/Logo.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@latest/Logo.svg" />
                     <p>Scott Mumby</p>
                 </div>
                 <div className="NavButtonsContainer">
                     <div className="NavButtons">
                         <div className="HomeContainer">
-                            <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@master/Home Icon.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@latest/Home Icon.svg" />
                         </div>
                         <a onClick={experience}>Experience</a>
                         <a onClick={projects}>Projects</a>
