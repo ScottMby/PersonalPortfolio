@@ -11,7 +11,9 @@ export default function CTAComponent() {
                             <p>Have a project idea?</p>
                             <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@latest/ExperienceStar.svg" />
                         </div>
-                        <button className="HireMeButton" onClick={() => window.location.href = 'mailto:smumby2003@gmail.com'}><p>Lets Talk!</p></button>
+                        <div>
+                            <button className="Button" onClick={() => window.location.href = 'mailto:smumby2003@gmail.com'}><p>Lets Talk!</p></button>
+                        </div>
                     </div>
                     <img src="https://cdn.jsdelivr.net/gh/ScottMby/websiteCDN@latest/CTAImg.svg" />
                 </div>

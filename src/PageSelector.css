@@ -1,0 +1,25 @@
+#root{
+    height: 100VH;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+#selectorWrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    font-size: 20px;
+}
+#buttonContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}

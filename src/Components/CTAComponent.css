@@ -54,29 +54,3 @@ body {
 .CTATitle p {
     margin: 0;
 }
-
-.HireMeButton {
-    background: linear-gradient(to right, #101111, #101111 ) padding-box, linear-gradient(to right, #FFD49C, #7A87FB) border-box;
-    border-radius: 40px;
-    border-width: 1px;
-    padding: 14px 20px 14px 20px;
-    max-height: 55px;
-    width: fit-content;
-}
-
-    .HireMeButton p {
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 500;
-        color: #FFFFFF;
-        margin: 0;
-    }
-
-    .HireMeButton:hover {
-        border-color: #FFD49C;
-    }
-
-    .HireMeButton:active {
-        outline: none;
-        border-color: #FFD49C;
-    }
